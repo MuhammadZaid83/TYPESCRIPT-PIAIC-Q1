@@ -41,7 +41,7 @@ async function display() {
           await Login();
     }
      else if (option ==="Exit") {
-         console.log("Thank you for using the ATM. Goodbye!");
+         console.log("Thank you for using the ATM. Hope you will come again!");
          process.exit(0);
     }}}
     async function Login() {

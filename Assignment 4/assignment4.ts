@@ -10,7 +10,7 @@ console.log(insertValue(arr, 2, 10));
 //Implement a simple shopping cart program using an array. Create functions to add items, remove items, and update quantities using the splice method. Print the cart's contents after each operation
 //let cart = ["mango", "apple", "banana", "grapes"];
 function sum1(cart: any[]) {
-    cart.splice(3, 0, "dates");
+    cart.splice(3, 0, "Peach");
     return cart;
 }
 function sum2(cart: any[]) {
